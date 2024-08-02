@@ -1,0 +1,53 @@
+nugi armas nu rizky
+---
+
+NOMOR 1:
+
+A. Apa itu Variabel?
+Variabel dalam Kotlin adalah lokasi di memori yang digunakan untuk menyimpan data yang bisa berubah selama eksekusi program. Dengan variabel, kita dapat menyimpan dan mengakses nilai di berbagai bagian program.
+
+B. Jenis-Jenis Variabel:
+1. **Variabel Konstan (`val`): Variabel yang nilainya tidak dapat diubah setelah ditetapkan. Ini mirip dengan konstanta dalam bahasa lain.
+2. **Variabel Biasa (`var`): Variabel yang nilainya dapat diubah kapan saja. Ini memungkinkan fleksibilitas dalam mengelola data yang berubah.
+
+C. Apa itu Tipe Data?
+Tipe data adalah kategori data yang mendefinisikan jenis nilai yang bisa disimpan dalam variabel. Tipe data membantu menentukan ukuran memori dan jenis operasi yang dapat dilakukan pada data.
+
+D. Jenis-Jenis Tipe Data:
+1. String: Tipe data untuk menyimpan teks atau string karakter.
+2. Int: Tipe data untuk menyimpan bilangan bulat (integer).
+3. Float: Tipe data untuk menyimpan angka desimal dengan presisi lebih rendah dibandingkan `Double`. Biasanya diakhiri dengan `f` atau `F`.
+4. Double: Tipe data untuk menyimpan angka desimal dengan presisi lebih tinggi dibandingkan `Float`.
+5. Boolean: Tipe data yang hanya memiliki dua nilai, yaitu `true` atau `false`.
+6. Char: Tipe data untuk menyimpan satu karakter.
+7. Array: Tipe data untuk menyimpan kumpulan nilai yang memiliki tipe yang sama. Array dapat menampung beberapa objek dengan tipe data yang sama.
+8. Long, Short, Byte**: Tipe data untuk menyimpan bilangan bulat dengan rentang yang berbeda dari `Int`. `Long` untuk bilangan besar, `Short` untuk bilangan lebih kecil, dan `Byte` untuk bilangan yang sangat kecil.
+
+---
+
+NOMOR 2:
+
+A. Ada berapa percabangan dalam bahasa pemrograman Kotlin?**
+Dalam bahasa pemrograman Kotlin, terdapat dua jenis percabangan utama yaitu `if-else` dan `when`.
+
+**B. Perbedaan utama antara `if-else` dan `when` di Kotlin:**
+- `if-else` digunakan untuk membuat keputusan berdasarkan ekspresi boolean (benar atau salah) dan biasanya hanya memiliki dua cabang (if dan else). `if-else` lebih umum dan cocok untuk logika kompleks.
+- `when` digunakan untuk membuat keputusan berdasarkan nilai ekspresi atau objek yang dibandingkan. `when` bisa memiliki banyak cabang dan lebih efisien untuk pemeriksaan nilai yang kompleks atau banyak kemungkinan nilai.
+
+
+NOMOR 3:
+
+A. Apa itu Function?**
+Function dalam bahasa Kotlin adalah blok kode yang dirancang untuk melakukan tugas tertentu dan dapat dipanggil kapan saja dibutuhkan. Function membantu memecah program besar menjadi bagian-bagian yang lebih kecil dan terorganisir, sehingga membuat kode lebih mudah dipahami dan dikelola.
+
+---
+
+NOMOR 4:
+
+A. Apa itu Function Generic?**
+Function generic dalam bahasa Kotlin adalah fungsi yang dirancang untuk bekerja dengan berbagai tipe data tanpa perlu menulis kode terpisah untuk setiap tipe. Ini dicapai dengan menggunakan parameter tipe (type parameter) yang berfungsi sebagai placeholder untuk tipe data yang sebenarnya.
+
+**B. Perbedaan antara Function Biasa dan Function Generic:**
+- **Function Biasa** hanya dapat bekerja dengan tipe data yang spesifik. Jika Anda perlu fungsi untuk tipe data berbeda, Anda harus menulis fungsi terpisah untuk setiap tipe. Penggunaan kembali fungsi juga terbatas dan memerlukan duplikasi kode.
+- **Function Generic** dapat bekerja dengan berbagai tipe data. Anda dapat menggunakan satu fungsi generic untuk berbagai tipe data, yang membuat kode lebih fleksibel dan mengurangi duplikasi. Keamanan tipe tetap terjaga karena tipe data diperiksa saat kompilasi dan runtime (saat dijalankan).
+
